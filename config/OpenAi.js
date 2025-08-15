@@ -1,7 +1,7 @@
 import OpenAI from "openai";
 import { personaPrompts } from "../public/Prompts/personaPrompts.js";
 
-const apiKey = process.env.OPENAI_API_KEY;
+const OPENAIapiKey = process.env.OPENAI_API_KEY;
 console.log("🚀 ~ apiKey:", apiKey);
 
 const chatwithPersona = async (
